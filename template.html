@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>H&M Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.14.0/dist/full.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Title Section -->
+    <header class="bg-white py-6 shadow-md">
+      <h1 class="text-3xl font-bold text-center text-red-600">H&M</h1>
+    </header>
+
+    <!-- Sidebar Navbar -->
+    <div class="flex">
+      <!-- Sidebar -->
+      <nav
+        class="bg-white w-64 h-screen shadow-lg fixed top-0 left-0 py-8 px-4"
+      >
+        <ul class="menu menu-vertical space-y-4">
+          <li><a class="hover:text-red-600" href="#">Home</a></li>
+          <li><a class="hover:text-red-600" href="#">Men</a></li>
+          <li><a class="hover:text-red-600" href="#">Women</a></li>
+          <li><a class="hover:text-red-600" href="#">Kids</a></li>
+          <li><a class="hover:text-red-600" href="#">Accessories</a></li>
+          <li><a class="hover:text-red-600" href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="ml-64 w-full py-12 px-6">
+        <!-- Product Section -->
+        <section>
+          <div class="text-center mb-10">
+            <h2 class="text-2xl font-semibold">Shop Our Latest Collection</h2>
+            <p class="text-gray-600">Discover the trendiest styles at H&M</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product 1 -->
+            <div
+              class="card bg-white shadow-xl hover:shadow-2xl transition-shadow"
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1520975434754-503deec10d7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  alt="Men's Shirt"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Men's Shirt</h2>
+                <p class="text-gray-600">Stylish casual shirt for men.</p>
+                <div class="card-actions justify-between">
+                  <span class="text-xl font-semibold text-red-600"
+                    >Rp 350.000</span
+                  >
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div
+              class="card bg-white shadow-xl hover:shadow-2xl transition-shadow"
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1593032457860-251dbd1a83df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  alt="Women's Dress"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Women's Dress</h2>
+                <p class="text-gray-600">Elegant summer dress for women.</p>
+                <div class="card-actions justify-between">
+                  <span class="text-xl font-semibold text-red-600"
+                    >Rp 500.000</span
+                  >
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div
+              class="card bg-white shadow-xl hover:shadow-2xl transition-shadow"
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  alt="Kids' Jacket"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Kids' Jacket</h2>
+                <p class="text-gray-600">
+                  Cozy and comfortable jacket for kids.
+                </p>
+                <div class="card-actions justify-between">
+                  <span class="text-xl font-semibold text-red-600"
+                    >Rp 450.000</span
+                  >
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div
+              class="card bg-white shadow-xl hover:shadow-2xl transition-shadow"
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1548911084-fce9db979b30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  alt="Men's Jeans"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Men's Jeans</h2>
+                <p class="text-gray-600">
+                  Classic blue jeans for everyday wear.
+                </p>
+                <div class="card-actions justify-between">
+                  <span class="text-xl font-semibold text-red-600"
+                    >Rp 400.000</span
+                  >
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Kaos Santai",
+    "description": "Kaos katun ringan dengan potongan longgar, ideal untuk bersantai di rumah atau keluar. Tersedia dalam warna-warna alami.",
+    "price": 150000,
+    "stock": 100,
+    "imgUrl": "https://www.muji.com/id/images/products/4550343646639_02_400x400.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "id": 2,
+    "name": "Jeans Regular Fit",
+    "description": "Jeans yang nyaman dengan potongan regular, cocok untuk penggunaan sehari-hari. Mudah dipadukan dengan berbagai atasan.",
+    "price": 350000,
+    "stock": 50,
+    "imgUrl": "https://www.muji.com/id/images/products/4550343646615_02_400x400.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "id": 3,
+    "name": "Jaket Anorak",
+    "description": "Jaket anorak yang stylish, terbuat dari bahan tahan air, ideal untuk cuaca dingin dan hujan.",
+    "price": 899000,
+    "stock": 25,
+    "imgUrl": "https://www.muji.com/id/images/products/4550343646653_02_400x400.jpg",
+    "categoryId": 3,
+    "authorId": 2
+  },
+  {
+    "id": 4,
+    "name": "Sneakers Minimalis",
+    "description": "Sneakers yang nyaman dengan desain minimalis, sempurna untuk aktivitas sehari-hari dan gaya yang effortless.",
+    "price": 450000,
+    "stock": 75,
+    "imgUrl": "https://www.muji.com/id/images/products/4550343646660_02_400x400.jpg",
+    "categoryId": 4,
+    "authorId": 2
+  }
+]
